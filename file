@@ -1,0 +1,30 @@
+//
+//  main.cpp
+//  Dog Years Finder
+//
+//  Created by Steve Snyder on 5/2/17.
+//  Copyright © 2017 Steve Snyder. All rights reserved.
+//
+// Algorithm
+// 1. Ask user to input their age
+// 2. Store age in an int
+// 3. Multiply age by 7 and store in another int
+// 4. Return int to user
+//
+//
+
+//#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age, dog_years; // declaring int variables
+    cout << "Welcome to the Dog Year Calculator!  "; // introduce program to user
+    cout << "Have you ever wondered how old you would be if you were a dog?  Let's find out.  ";
+    cout << "Please answer the folloing question.  How old are you? "; cin >> age; // prompt user to input age
+    dog_years = age * 7; // multiply age by seven and store value in dog_years
+    cout << "Drumroll...You are " << dog_years << " years old in dog years!  Congratulations!  Thanks for playing!" << endl; // return value to user as their age in dog years
+    
+    return 0;
+}
